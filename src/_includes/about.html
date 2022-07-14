@@ -1,0 +1,28 @@
+---
+title: About Us
+layout: default
+---
+
+<style>
+</style>
+
+<div class="container max-w-3xl mt-6 px-6">
+
+    <h1 class="font-bold text-5xl">{{title}}</h1>
+
+    <section class="container mx-auto px-6 p-10">
+        <div class="flex items-center flex-wrap mb-20">
+          <div class="w-full md:w-1/2">
+            <h4 class="text-3xl text-gray-800 font-bold mb-3">Exercise Metric</h4>
+            <p class="text-gray-600 mb-8">Our Smart Health Monitoring Wristwatch is able to capture you vitals while you exercise. You can create different category of exercises and can track your vitals on the go.</p>
+          </div>
+          <div class="w-full md:w-1/2">
+            <img class="about-calinda" style="width: 300px; height: 300px; object-fit: cover;" src="https://cloudfront-us-east-1.images.arcpublishing.com/ajc/JDFKPVHTKJGRZPRIX67OOVQYJM.jpg" alt="Monitoring" />
+          </div>
+        </div>
+  
+      </section>
+
+    {{ content | safe }}
+
+</div>
