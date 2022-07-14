@@ -1,13 +1,23 @@
 links:
   - title: Services
     url: /services
-    desc: Open source content management for your Git workflow
-  - title: Eleventy
-    url: https://www.11ty.dev/
-    desc: Eleventy is a simpler static site generator.
-  - title: Alpine.js
-    url: https://github.com/alpinejs/alpine
-    desc: A minimal framework for composing JavaScript behavior in your markup.
-  - title: Tailwind CSS
-    url: https://tailwindcss.com/
-    desc: A utility-first CSS framework for rapidly building custom designs.
+    desc: Fusce ut risus aliquet, fermentum nunc at, dictum ante. Morbi sit amet
+      ornare nulla. Duis congue, tortor vel malesuada convallis, leo elit auctor
+      velit, in fringilla tortor dui malesuada odio.
+  - title: About Us
+    url: /about
+    desc: Duis consectetur ornare convallis. Nunc ut varius sapien. Donec pharetra
+      turpis magna, ac placerat magna pharetra euismod. Vestibulum rutrum magna
+      feugiat justo pellentesque viverra. Maecenas congue eros ut sem viverra
+      volutpat.
+  - title: Media
+    url: /media
+    desc: Sed et dui eu elit hendrerit tristique nec mollis turpis. Cras non varius
+      nisl, quis dictum augue. Aenean placerat tellus turpis, nec euismod sapien
+      hendrerit nec. I
+  - title: Blog
+    url: /blog
+    desc: Integer sit amet tempus augue. Proin quis neque quis augue pharetra tempus
+      sed non augue. Nulla facilisi. Morbi laoreet ex felis. Aenean nibh odio,
+      pharetra sed ex eget, sagittis bibendum nisl. Donec laoreet massa mi, quis
+      iaculis tortor eleifend id.
