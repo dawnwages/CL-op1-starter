@@ -18,3 +18,30 @@ body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-gray-800;
 }
+
+blockquote {
+  border-left: 3px rgb(99 102 241) solid;
+}
+
+blockquote:before,
+blockquote:after {
+  font-family: FontAwesome;
+  position: absolute;
+  color: rgb(99 102 241);
+  font-size: 34px;
+}
+
+blockquote:before {
+  content: "\f10d";
+  top: -30px;
+  margin-right: 10px;
+  right: 100%;
+}
+
+blockquote:after {
+  content: "\f10e";
+  margin-left: 0;
+  left: 100%;
+  top: auto;
+  bottom: -30px;
+}

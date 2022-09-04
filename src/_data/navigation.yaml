@@ -1,6 +1,6 @@
 ---
 items:
-  - text: About Us
+  - text: My Story
     url: "/about"
   - text: Media
     url: "/media"
@@ -8,5 +8,3 @@ items:
     url: "/services"
   - text: Contact
     url: "/contact"
-  - text: Blog
-    url: "/blog"
