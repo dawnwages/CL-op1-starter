@@ -1,23 +1,18 @@
 links:
   - title: Services
     url: /services
-    desc: Fusce ut risus aliquet, fermentum nunc at, dictum ante. Morbi sit amet
-      ornare nulla. Duis congue, tortor vel malesuada convallis, leo elit auctor
-      velit, in fringilla tortor dui malesuada odio.
-  - title: About Us
+    desc: "SOURCES is committed to helping organizations to plan, create, and
+      sustain institutional practices and public-facing work that
+      is:  Well-informed, Inclusive, Relevant and Compelling for contemporary
+      audiences and collaborators"
+  - title: My Story
     url: /about
-    desc: Duis consectetur ornare convallis. Nunc ut varius sapien. Donec pharetra
-      turpis magna, ac placerat magna pharetra euismod. Vestibulum rutrum magna
-      feugiat justo pellentesque viverra. Maecenas congue eros ut sem viverra
-      volutpat.
+    desc: founded Sources Cultural Resources Management, LLC with a philosophy of
+      courageous curiosity—fearlessly exploring the past to develop cultural
+      institutions and experiences committed to truth and innovation.
   - title: Media
     url: /media
-    desc: Sed et dui eu elit hendrerit tristique nec mollis turpis. Cras non varius
-      nisl, quis dictum augue. Aenean placerat tellus turpis, nec euismod sapien
-      hendrerit nec. I
-  - title: Blog
-    url: /blog
-    desc: Integer sit amet tempus augue. Proin quis neque quis augue pharetra tempus
-      sed non augue. Nulla facilisi. Morbi laoreet ex felis. Aenean nibh odio,
-      pharetra sed ex eget, sagittis bibendum nisl. Donec laoreet massa mi, quis
-      iaculis tortor eleifend id.
+    desc: "  "
+  - title: Contact
+    url: /contact
+    desc: "  "
