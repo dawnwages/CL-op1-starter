@@ -2,6 +2,8 @@
 items:
   - text: My Story
     url: "/about"
+  - text: Press
+    url: "/press"
   - text: Media
     url: "/media"
   - text: Services

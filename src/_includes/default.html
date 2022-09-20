@@ -18,10 +18,10 @@
     {% endif %}
   </head>
   <body>
-    <div class="pb-20"> 
+    <div class="pb-40"> 
     {% include "./partials/navbar.html" %}
     </div>
-    <div class="pt-20 pb-20">
+    <div class="pt-20 pb-40">
     {{ content | safe }}
     </div>
     {% include "./partials/footer.html" %}
@@ -32,7 +32,7 @@
       <!-- Netlify Identity Widget -->
       <!-- Needed only if you are using Netlify Identity feature -->
       <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-      <div class="py-20" style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%)"
+      <!-- <div class="py-20" style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%)"
     >
       <div class="container mx-auto px-6">
         <h2 class="text-4xl font-bold mb-2 text-white">
@@ -46,7 +46,7 @@
           Watch XYZ Project
         </button>
       </div>
-    </div>
+    </div> -->
     {% endif %}
 
   </body>
