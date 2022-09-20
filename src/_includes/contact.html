@@ -2,11 +2,46 @@
 title: Contact Us
 layout: default
 ---
-
 <div class="container max-w-3xl mt-6 px-6">
 
     <h1 class="font-bold text-5xl">{{title}}</h1>
+    <form action="" method="">
 
-    {{ content | safe }}
+        <div class="form-row">
+            <div class="form-label">Name</div>
+            <div class="form-field">
+                <input class="p-2 border rounded border-gray-200 hover:border-purple-400" type="text" name="name" />
+            </div>
+            <div class="form-label">Phone</div>
+            <div class="form-field">
+                <input class="p-2 border rounded border-gray-200 hover:border-purple-400" type="number" name="phone" placeholder="Please enter a number only" /> 
+            </div>
+        </div>
 
+        <div class="form-row">
+            <div class="form-label">Message</div>
+            <div class="form-field">
+                <textarea class="p-2 border rounded border-gray-200 hover:border-purple-400" name="message" rows="5" cols="50"></textarea>
+            </div>
+        </div>
+        <!-- <div class="form-row">
+            <div class="form-label">Service</div>
+            <div class="form-field">
+                <select class="p-2 border rounded border-gray-200 hover:border-purple-400" name="service">
+                    <option value="one">Service 1</option>
+                    <option value="two">Service 2</option>
+                    <option value="three">Service 3</option>
+                    <option value="four">Service 4</option>
+                </select>
+            </div>
+        </div> -->
+        <div class="form-row">
+            <div class="form-label"> &nbsp; </div>
+            <div class="form-field">
+                <!-- <input class="text-gray-400 text-lg" type="reset" name="reset" /> -->
+                <input class="text-indigo-500 font-bold text-lg" type="submit" name="message" value="Submit →" />
+            </div>
+        </div>
+    </form>
+    <!-- {{ content | safe }} -->
 </div>
